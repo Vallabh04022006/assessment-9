@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Placement Portal</title>
+    <style>
+        body { font-family: Arial; margin: 0; background: #eef2ff; color: #1e293b; }
+        header, footer { background: #123c69; color: white; text-align: center; padding: 22px; }
+        nav { background: #0b2545; padding: 14px; text-align: center; }
+        nav a { color: white; margin: 12px; text-decoration: none; }
+        main { max-width: 1000px; margin: auto; padding: 20px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(220px,1fr)); gap: 16px; }
+        .card { background: white; padding: 18px; border-radius: 10px; box-shadow: 0 2px 6px #ccc; }
+        h2 { color: #123c69; }
+    </style>
+</head>
+<body>
+<header>
+    <h1>Student Placement Portal</h1>
+    <p>Explore careers and recruitment opportunities</p>
+</header>
+<nav>
+    <a href="#statistics">Statistics</a>
+    <a href="#students">Students</a>
+    <a href="#companies">Companies</a>
+    <a href="#drives">Recruitment Drives</a>
+</nav>
+<main>
+    <section id="statistics">
+        <h2>Placement Statistics</h2>
+        <div class="grid">
+            <div class="card"><h3>850+</h3><p>Students Placed</p></div>
+            <div class="card"><h3>120+</h3><p>Recruiting Companies</p></div>
+            <div class="card"><h3>₹12 LPA</h3><p>Illustrative Average Package</p></div>
+        </div>
+    </section>
+    <section id="students">
+        <h2>Student Profiles</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Arun Kumar</h3>
+                <p>Department: Computer Science</p>
+                <p>Skills: Java, DSA, SQL</p>
+                <p>Eligibility: 7.0 CGPA</p>
+            </div>
+            <div class="card">
+                <h3>Priya Sharma</h3>
+                <p>Department: Information Technology</p>
+                <p>Skills: Python, Web Development</p>
+                <p>Eligibility: 7.5 CGPA</p>
+            </div>
+        </div>
+    </section>
+    <section id="companies">
+        <h2>Company Profiles</h2>
+        <div class="grid">
+            <div class="card"><h3>TechNova</h3><p>Role: Software Developer</p><p>Skills: Java, SQL, DSA</p></div>
+            <div class="card"><h3>DataSphere</h3><p>Role: Data Analyst</p><p>Skills: Python, SQL</p></div>
+        </div>
+    </section>
+    <section id="drives">
+        <h2>Upcoming Recruitment Drives</h2>
+        <div class="card">
+            <p>TechNova — 25 October 2026</p>
+            <p>DataSphere — 30 October 2026</p>
+            <p>Check company eligibility criteria before applying.</p>
+        </div>
+    </section>
+</main>
+<footer><p>University Placement Cell</p></footer>
+</body>
+</html>
